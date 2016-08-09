@@ -1,0 +1,29 @@
+.item {
+    width: 100%;
+}
+.item .item_feedback,
+.item .item_map {
+	width: 50%;
+}
+.item_height {
+	height: 545px;
+}
+
+.address_item {
+    /*display: inline-block;*/
+    width: 25%;
+    /*vertical-align: top;*/
+    padding-right: 1.2%;
+    margin-bottom: 2%;
+    float: left;
+}
+.title_rooms {
+	font-size: 14px;
+	color: #fff;
+	line-height: 1.8
+}
+@media only screen and (max-width: 1400px) { 
+	.page-info {
+	    margin-left: -100px;
+	}
+}
